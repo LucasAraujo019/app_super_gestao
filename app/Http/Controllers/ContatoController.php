@@ -8,6 +8,6 @@ class ContatoController extends Controller
 {
     public function contato()
     {
-        return view('site.contato'); // site = pasta, contato = arquivo
+        return view('site.contato', ['titulo' => 'Contato (teste)']); // site = pasta, contato = arquivo
     }
 }
